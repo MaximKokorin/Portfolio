@@ -1,0 +1,721 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+}
+header{
+    margin-bottom: 108px;
+}
+
+.container_h1 {
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1 {
+    font-family: "Cascadia Mono";
+    font-size: 36px;
+    font-weight: 400;
+    color: #042083;
+}
+.line {
+    background-color: #250483;
+}
+.line_h1 {
+    width: 870px;
+    height: 2px;
+}
+.h2 {
+    font-family: "Cascadia Code";
+    font-size: 24px;
+    font-weight: 400;
+}
+.h2_about_me {
+    margin: 0 auto;
+    max-width: 1186px;
+    margin-bottom: 42px;
+}
+.container_about_me {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.rectangle {
+    background-color: #250483;
+}
+.rec_1_about_me {
+    width: 295px;
+    height: 257px;
+    border-radius: 0 20px 20px 0;
+    margin-bottom: 82px;
+}
+.rec_2_about_me {
+    width: 295px;
+    height: 147px;
+    border-radius: 0 20px 20px 0;
+}
+.rectangle_text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155%;
+    border: 2px solid #250483;
+    border-radius: 20px;
+    padding: 4px;
+}
+.rec_1_about_me_text {
+    width: 560px;
+    height: 90px;
+    margin-bottom: 27px;
+}
+.rec_2_about_me_text {
+    width: 560px;
+    height: 370px;
+}
+
+.rec_3_about_me_text {
+    width: 555px;
+    height: 230px;
+    margin-bottom: 78px;
+}
+.rec_4_about_me_text {
+    width: 555px;
+    height: 180px;
+}
+.rec_3_about_me {
+    width: 298px;
+    height: 328px;
+    margin-bottom: 71px;
+    border-radius: 20px 0 0 20px;
+}
+.rec_4_about_me {
+    width: 298px;
+    height: 89px;
+    border-radius: 20px 0 0 20px;
+}
+@media screen and (max-width: 1825px){
+    .rec_1_about_me{
+        width: 100px;
+    }
+    .rec_2_about_me{
+        width: 100px;
+    }
+    .rec_3_about_me{
+        width: 100px;
+    }
+    .rec_4_about_me{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .rectangle_text{
+        font-size: 16px;
+    }
+    .rec_1_about_me_text{
+        width: 480px;
+        height: 108px;
+    }
+    .rec_2_about_me_text{
+        width: 480px;
+        height: 355px;
+    }
+    .rec_3_about_me_text{
+        width: 455px;
+        height: 255px;
+        margin-bottom: 55px;
+    }
+    .rec_4_about_me_text{
+        width: 455px;
+    }
+    .line_h1{
+        width: 650px;
+    }
+    .container_h1{
+        width: 1000px;
+    }
+    .h2_about_me{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .rec_2_about_me_text{
+        margin-bottom: 27px;
+    }
+    .rec_3_about_me_text{
+        width: 300px;
+        height: 265px;
+        margin-bottom: 27px;
+    }
+    .rec_4_about_me_text{
+        width: 300px;
+        height: 200px;
+    }
+    .rec_1_about_me_text{
+        width: 370px;
+    }
+    .rec_2_about_me_text{
+        width: 370px;
+    }
+    .h1{
+        font-size: 32px;
+    }
+    .rectangle_text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1040px){
+    .line_h1{
+        max-width: 450px;
+    }
+    .container_h1{
+        max-width: 800px;
+    }
+    .h2_about_me{
+        width: 211px;
+    }
+    
+    .rec_1_about_me{
+        width: 10px;
+    }
+    .rec_2_about_me{
+        width: 10px;
+    }
+    .rec_3_about_me{
+        width: 10px;
+    }
+    .rec_4_about_me{
+        width: 10px;
+    }
+}
+@media screen and (max-width: 845px){
+    .line_h1{
+        width: 200px;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .container_h1{
+        max-width: 510px;
+    }
+}
+@media screen and (max-width: 780px){
+    .group_1_about_me{
+        display: none;
+    }
+    .group_4_about_me{
+        display: none;
+    }
+    .container_about_me{
+        flex-direction: column;
+        width: 370px;
+        margin: 0 auto;
+    }
+    .rec_2_about_me_text{
+        margin-bottom: 27px;
+    }
+    .rec_3_about_me_text{
+        width: 370px;
+        height: 220px;
+        margin-bottom: 27px;
+    }
+    .rec_4_about_me_text{
+        width: 370px;
+        height: 160px;
+    }
+}
+@media screen and (max-width: 530px){
+    .h1{
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .line_h1{
+        width: 150px;
+    }
+    .container_h1{
+        max-width: 100%;
+    }
+    .rectangle_text{
+        font-size: 12px;
+    }
+    .rec_1_about_me_text{
+        width: 270px;
+    }
+    .rec_2_about_me_text{
+        width: 270px;
+        height: 360px;
+    }
+    .rec_3_about_me_text{
+        width: 270px;
+        height: 230px;
+    }
+    .rec_4_about_me_text{
+        width: 270px;
+    }
+    .container_about_me{
+        width: 270px;
+    }
+}
+@media screen and (max-width: 410px){
+    .rectangle_text{
+        font-size: 10px;
+    }
+    .line_h1{
+        width: 100px;
+    }
+    .rec_1_about_me_text{
+        width: 230px;
+        height: 90px;
+    }
+    .rec_2_about_me_text{
+        width: 230px;
+        height: 305px;
+    }
+    .rec_3_about_me_text{
+        width: 230px;
+        height: 200px;
+    }
+    .rec_4_about_me_text{
+        width: 230px;
+        height: 140px;
+    }
+    .container_about_me{
+        width: 230px;
+    }
+}
+
+.my_skills {
+    margin-bottom: 76px;
+}
+.container_h2_my_skills {
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+.signature {
+    font-family: 'Caveat';
+    font-size: 32px;
+}
+.container_my_skills_1 {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.rec_full_no_text {
+    background-color: #F1F0FF;
+    width: 260px;
+    height: 50px;
+}
+.rec_full_text {
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.container_my_skills_2 {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.rec_half_no_text {
+    background-color: #F1F0FF;
+    width: 130px;
+    height: 50px;
+}
+.container_my_skills_3 {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.my_programms {
+    margin-bottom: 167px;
+}
+.h2_my_programms {
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.container_my_programms_1 {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.container_my_programms_2 {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1100px){
+    .rec_full_no_text {
+        width: 180px;
+        height: 40px;
+    }
+    .rec_full_text {
+        width: 180px;
+        height: 40px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .rec_half_no_text {
+        width: 90px;
+        height: 40px;
+    }
+    .container_h2_my_skills{
+        max-width: 720px;
+    }
+    .h2_my_programms{
+        max-width: 720px;
+    }
+    .container_my_skills_1{
+        max-width: 720px;
+    }
+    .container_my_skills_2{
+        max-width: 720px;
+    }
+    .container_my_skills_3{
+        max-width: 720px;
+    }
+    .container_my_programms_1{
+        max-width: 720px;
+    }
+    .container_my_programms_2{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 815px){
+    .rec_full_no_text {
+        width: 100px;
+        height: 30px;
+    }
+    .rec_full_text {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .rec_half_no_text {
+        width: 50px;
+        height: 30px;
+    }
+    .container_h2_my_skills{
+        max-width: 400px;
+    }
+    .h2_my_programms{
+        max-width: 400px;
+    }
+    .container_my_skills_1{
+        max-width: 400px;
+    }
+    .container_my_skills_2{
+        max-width: 400px;
+    }
+    .container_my_skills_3{
+        max-width: 400px;
+    }
+    .container_my_programms_1{
+        max-width: 400px;
+    }
+    .container_my_programms_2{
+        max-width: 400px;
+    }
+    .signature{
+        font-size: 18px;
+    }
+    .h2{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 410px){
+    .rec_full_no_text {
+        width: 60px;
+        height: 25px;
+    }
+    .rec_full_text {
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .rec_half_no_text {
+        width: 30px;
+        height: 25px;
+    }
+    .container_h2_my_skills{
+        max-width: 240px;
+    }
+    .h2_my_programms{
+        max-width: 240px;
+    }
+    .container_my_skills_1{
+        max-width: 240px;
+    }
+    .container_my_skills_2{
+        max-width: 240px;
+    }
+    .container_my_skills_3{
+        max-width: 240px;
+    }
+    .container_my_programms_1{
+        max-width: 240px;
+    }
+    .container_my_programms_2{
+        max-width: 240px;
+    }
+    .signature{
+        font-size: 12px;
+    }
+    .h2{
+        font-size: 14px;
+    }
+}
+
+.my_certificates {
+    margin-bottom: 250px;
+}
+.container_h2_my_certificates {
+    max-width: 626px;
+    height: 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.line_my_certificates {
+    width: 176px;
+    height: 2px;
+}
+.container_my_certificates {
+    display: flex;
+    justify-content: space-between;
+}
+.rec_1_my_certificates {
+    width: 308px;
+    height: 444px;
+    background-color: #F1F0FF;
+    border-radius: 0 20px 20px 0;
+}
+.rec_2_my_certificates {
+    width: 308px;
+    height: 444px;
+    background-color: #F1F0FF;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.container_slider_css{
+    width: 626px;
+    height: 444px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    border: solid 1px #250483;
+}
+.photo_slider_css{
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    width: 100%
+}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+.h2_my_certificates{
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 1825px){
+    .rec_1_my_certificates{
+        width: 100px;
+    }
+    .rec_2_my_certificates{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .rec_1_my_certificates{
+        width: 10px;
+    }
+    .rec_2_my_certificates{
+        width: 10px;
+    }
+}
+@media screen and (max-width: 900px){
+    .container_slider_css{
+        width: 500px;
+        height: 410px;
+    }
+    .rec_1_my_certificates{
+        height: 410px;
+    }
+    .rec_2_my_certificates{
+        height: 410px;
+    }
+    .container_h2_my_certificates{
+        max-width: 500px;
+    }
+    .line_my_certificates{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 590px){
+    .container_slider_css{
+        width: 400px;
+        height: 310px;
+        margin-bottom: 120px;
+    }
+    .my_skills_programms{
+        margin-bottom: 50px;
+    }
+    .rec_1_my_certificates{
+        height: 310px;
+    }
+    .rec_2_my_certificates{
+        height: 310px;
+    }
+    .container_h2_my_certificates{
+        max-width: 400px;
+    }
+    .line_my_certificates{
+        width: 100px;
+    }
+    .my_certificates{
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 470px){
+    .container_slider_css{
+        width: 300px;
+        height: 210px;
+    }
+    .rec_1_my_certificates{
+        height: 210px;
+    }
+    .rec_2_my_certificates{
+        height: 210px;
+    }
+    .container_h2_my_certificates{
+        max-width: 300px;
+    }
+    .line_my_certificates{
+        width: 50px;
+    }
+}
+@media screen and (max-width: 360px){
+    .container_slider_css{
+        width: 200px;
+        height: 110px;
+    }
+    .rec_1_my_certificates{
+        height: 110px;
+    }
+    .rec_2_my_certificates{
+        height: 110px;
+    }
+    .container_h2_my_certificates{
+        max-width: 200px;
+    }
+    .line_my_certificates{
+        width: 30px;
+    }
+}
+.new {
+    margin-bottom: 161px;
+}
+.h2_new {
+    max-width: 273px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Caveat';
+}
+@media screen and (max-width: 900px){
+    .h2_new{
+        font-size: 32px;
+    }
+}
+.signature_footer {
+    text-align: center;
+}
+
+footer{
+    height: 70px;
+    padding-top: 10px;
+    background-color: #F1F0FF;
+}
+.button_email {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid #250483;
+    width: 260px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.email {
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.button_email:hover{
+    background-color: #F1F0FF;
+}
+@media screen and (max-width: 900px){
+    .email{
+        font-size: 14px;
+    }
+    .button_email{
+        width: 200px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 400px){
+    .email{
+        font-size: 12px;
+    }
+    .button_email{
+        width: 150px;
+        height: 25px;
+    }
+}
