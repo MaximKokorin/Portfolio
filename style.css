@@ -43,9 +43,9 @@ header{
     align-items: center;
 }
 .h1 {
-    font-family: "Cascadia Mono";
+    font-family: "Cascadia Mono", "Fira Sans";
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 500;
     color: #042083;
 }
 .line {
@@ -56,7 +56,7 @@ header{
     height: 2px;
 }
 .h2 {
-    font-family: "Cascadia Code";
+    font-family: "Cascadia Mono", "Fira Sans";
     font-size: 24px;
     font-weight: 400;
 }
@@ -528,12 +528,18 @@ header{
     height: 444px;
     background-color: #F1F0FF;
     border-radius: 0 20px 20px 0;
+    border-top: solid 1px #250483;
+    border-right: solid 1px #250483;
+    border-bottom: solid 1px #250483;
 }
 .rec_2_my_certificates {
     width: 308px;
     height: 444px;
     background-color: #F1F0FF;
     border-radius: 20px 0px 0px 20px;
+    border-top: solid 1px #250483;
+    border-left: solid 1px #250483;
+    border-bottom: solid 1px #250483;
 }
 
 
