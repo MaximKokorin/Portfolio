@@ -201,7 +201,8 @@ header{
         max-width: 800px;
     }
     .h2_about_me{
-        width: 211px;
+        width: auto;
+        text-align: center;
     }
     
     .rec_1_about_me{
@@ -237,20 +238,28 @@ header{
     }
     .container_about_me{
         flex-direction: column;
-        width: 370px;
+        max-width: 500px;
         margin: 0 auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .rec_1_about_me_text{
+        width: 100%;
+        height: 100%;
     }
     .rec_2_about_me_text{
+        width: 100%;
+        height: 100%;
         margin-bottom: 27px;
     }
     .rec_3_about_me_text{
-        width: 370px;
-        height: 220px;
+        width: 100%;
+        height: 100%;
         margin-bottom: 27px;
     }
     .rec_4_about_me_text{
-        width: 370px;
-        height: 160px;
+        width: 100%;
+        height: 100%;
     }
 }
 @media screen and (max-width: 530px){
@@ -270,23 +279,6 @@ header{
     .rectangle_text{
         font-size: 12px;
     }
-    .rec_1_about_me_text{
-        width: 270px;
-    }
-    .rec_2_about_me_text{
-        width: 270px;
-        height: 360px;
-    }
-    .rec_3_about_me_text{
-        width: 270px;
-        height: 230px;
-    }
-    .rec_4_about_me_text{
-        width: 270px;
-    }
-    .container_about_me{
-        width: 270px;
-    }
 }
 @media screen and (max-width: 410px){
     .rectangle_text{
@@ -294,25 +286,6 @@ header{
     }
     .line_h1{
         width: 100px;
-    }
-    .rec_1_about_me_text{
-        width: 230px;
-        height: 90px;
-    }
-    .rec_2_about_me_text{
-        width: 230px;
-        height: 305px;
-    }
-    .rec_3_about_me_text{
-        width: 230px;
-        height: 200px;
-    }
-    .rec_4_about_me_text{
-        width: 230px;
-        height: 140px;
-    }
-    .container_about_me{
-        width: 230px;
     }
 }
 
@@ -381,6 +354,43 @@ header{
     max-width: 1040px;
     margin: 0 auto;
 }
+@media screen and (max-width: 1400px){
+    .rec_full_no_text {
+        width: 230px;
+        height: 45px;
+    }
+    .rec_full_text {
+        width: 230px;
+        height: 45px;
+        font-size: 22px;
+        padding: 0;
+    }
+    .rec_half_no_text {
+        width: 115px;
+        height: 45px;
+    }
+    .container_h2_my_skills{
+        max-width: 920px;
+    }
+    .h2_my_programms{
+        max-width: 920px;
+    }
+    .container_my_skills_1{
+        max-width: 920px;
+    }
+    .container_my_skills_2{
+        max-width: 920px;
+    }
+    .container_my_skills_3{
+        max-width: 920px;
+    }
+    .container_my_programms_1{
+        max-width: 920px;
+    }
+    .container_my_programms_2{
+        max-width: 920px;
+    }
+}
 @media screen and (max-width: 1100px){
     .rec_full_no_text {
         width: 180px;
@@ -420,38 +430,35 @@ header{
 }
 @media screen and (max-width: 815px){
     .rec_full_no_text {
-        width: 100px;
         height: 30px;
     }
     .rec_full_text {
-        width: 100px;
         height: 30px;
         font-size: 14px;
     }
     .rec_half_no_text {
-        width: 50px;
         height: 30px;
     }
     .container_h2_my_skills{
-        max-width: 400px;
+        max-width: 600px;
     }
     .h2_my_programms{
-        max-width: 400px;
+        max-width: 600px;
     }
     .container_my_skills_1{
-        max-width: 400px;
+        max-width: 600px;
     }
     .container_my_skills_2{
-        max-width: 400px;
+        max-width: 600px;
     }
     .container_my_skills_3{
-        max-width: 400px;
+        max-width: 600px;
     }
     .container_my_programms_1{
-        max-width: 400px;
+        max-width: 600px;
     }
     .container_my_programms_2{
-        max-width: 400px;
+        max-width: 600px;
     }
     .signature{
         font-size: 18px;
@@ -459,41 +466,25 @@ header{
     .h2{
         font-size: 18px;
     }
+    .my_skills{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .my_programms{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 }
-@media screen and (max-width: 410px){
+@media screen and (max-width: 460px){
     .rec_full_no_text {
-        width: 60px;
         height: 25px;
     }
     .rec_full_text {
-        width: 60px;
         height: 25px;
         font-size: 12px;
     }
     .rec_half_no_text {
-        width: 30px;
         height: 25px;
-    }
-    .container_h2_my_skills{
-        max-width: 240px;
-    }
-    .h2_my_programms{
-        max-width: 240px;
-    }
-    .container_my_skills_1{
-        max-width: 240px;
-    }
-    .container_my_skills_2{
-        max-width: 240px;
-    }
-    .container_my_skills_3{
-        max-width: 240px;
-    }
-    .container_my_programms_1{
-        max-width: 240px;
-    }
-    .container_my_programms_2{
-        max-width: 240px;
     }
     .signature{
         font-size: 12px;
@@ -716,7 +707,7 @@ footer{
         height: 30px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 460px){
     .email{
         font-size: 12px;
     }
