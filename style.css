@@ -91,7 +91,7 @@ header{
     line-height: 155%;
     border: 2px solid #250483;
     border-radius: 20px;
-    padding: 4px;
+    padding: 6px;
 }
 .rec_1_about_me_text {
     width: 560px;
@@ -487,13 +487,17 @@ header{
         height: 25px;
     }
     .signature{
-        font-size: 12px;
+        font-size: 16px;
     }
     .h2{
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 315px){
+    .signature{
+        font-size: 12px;
+    }
+}
 .my_certificates {
     margin-bottom: 250px;
 }
