@@ -81,7 +81,7 @@ header{
 }
 .rec_2_about_me {
     width: 295px;
-    height: 147px;
+    height: 177px;
     border-radius: 0 20px 20px 0;
 }
 .rectangle_text {
@@ -95,7 +95,7 @@ header{
 }
 .rec_1_about_me_text {
     width: 560px;
-    height: 90px;
+    height: 120px;
     margin-bottom: 27px;
 }
 .rec_2_about_me_text {
@@ -105,8 +105,8 @@ header{
 
 .rec_3_about_me_text {
     width: 555px;
-    height: 230px;
-    margin-bottom: 78px;
+    height: 235px;
+    margin-bottom: 103px;
 }
 .rec_4_about_me_text {
     width: 555px;
@@ -114,7 +114,7 @@ header{
 }
 .rec_3_about_me {
     width: 298px;
-    height: 328px;
+    height: 358px;
     margin-bottom: 71px;
     border-radius: 20px 0 0 20px;
 }
@@ -140,6 +140,12 @@ header{
 @media screen and (max-width: 1400px){
     .rectangle_text{
         font-size: 16px;
+    }
+    .rec_1_about_me{
+        height: 230px;
+    }
+    .rec_3_about_me{
+        height: 330px;
     }
     .rec_1_about_me_text{
         width: 480px;
@@ -548,7 +554,7 @@ header{
 }
 .photo_slider_css{
     position: absolute;
-    animation: round 16s infinite;
+    animation: round 20s infinite;
     opacity: 0;
     width: 100%
 }
@@ -556,9 +562,10 @@ header{
 25%{opacity:1}
 40%{opacity:0}
 }
-img:nth-child(1){animation-delay:12s}
-img:nth-child(2){animation-delay:8s}
-img:nth-child(3){animation-delay:4s}
+img:nth-child(1){animation-delay:16s}
+img:nth-child(2){animation-delay:12s}
+img:nth-child(3){animation-delay:8s}
+img:nth-child(4){animation-delay:4s}
 img:nth-child(4){animation-delay:0}
 .h2_my_certificates{
     text-align: center;
@@ -709,6 +716,9 @@ footer{
     .button_email{
         width: 200px;
         height: 30px;
+    }
+    footer{
+        height: 50px;
     }
 }
 @media screen and (max-width: 460px){
